@@ -43,5 +43,4 @@ jobs:
         -Dsonar.host.url=https://sonarcloud.io
         -Dsonar.organization=nofouc
         -Dsonar.projectKey=NoFOUC_TimerStopWatch-Project
-        -Dsonar.branch.name=main 
-        #−Dsonar.login=$TP
+        -Dsonar.branch.name=main
