@@ -44,4 +44,4 @@ jobs:
         -Dsonar.organization=nofouc
         -Dsonar.projectKey=NoFOUC_TimerStopWatch-Project
         -Dsonar.branch.name=main 
-        −Dsonar.login=$SONARTOKEN
+        −Dsonar.login=$SONAR_TOKEN
