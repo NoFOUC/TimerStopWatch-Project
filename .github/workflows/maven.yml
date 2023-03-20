@@ -36,7 +36,7 @@ jobs:
 
     - name: Generate quality report
       env:
-        SONARTOKEN: ${{ secrets.SONARTOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONARTOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }} 
       run: >
         mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar 
