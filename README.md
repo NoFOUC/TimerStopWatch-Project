@@ -37,3 +37,6 @@ The code can be compiled, tested and executed with maven:
 ## Acknowledgments
 
 * Software Engineering Lab, Faculty of Sciences, University of Mons, Belgium.
+
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=NoFOUC_TimerStopWatch-Project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=NoFOUC_TimerStopWatch-Project)
