@@ -37,9 +37,10 @@ jobs:
     − name: Generate quality report
     env :
     SONARTOKEN: ${{ secrets.SONARTOKEN }}
-    SONAR HOST URL: ${{ secrets.SONAR_HOST_URL }} run: >
-    mvn −B verify org . sonarsource . scanner .maven: sonar−maven−plugin : sonar 
-    −Dsonar.host.url=https://sonarcloud.io
-    −Dsonar.organization=nofouc
-    −Dsonar.projectKey=NoFOUC_TimerStopWatch-Project
-    −Dsonar.branch.name=main −Dsonar.login=$SONAR TOKEN
+    SONAR HOST URL: ${{ secrets.SONAR_HOST_URL }} 
+    run: >
+      mvn −B verify org . sonarsource . scanner .maven: sonar−maven−plugin : sonar 
+      −Dsonar.host.url=https://sonarcloud.io
+      −Dsonar.organization=nofouc
+      −Dsonar.projectKey=NoFOUC_TimerStopWatch-Project
+      −Dsonar.branch.name=main −Dsonar.login=$SONAR TOKEN
